@@ -7,8 +7,13 @@
 ##How to run
 
 * You will need jsoup.jar file to compile and execute the program.
-..* To download jsoup.jar file [click here.](https://jsoup.org/download)
+
+- To download jsoup.jar file [click here.](https://jsoup.org/download).
+
 * To compile the file.
-..* Use this **Command** *javac -cp jsoup.jar: xkcd_downloader.java*
+
+- Use this Command **javac -cp jsoup.jar: xkcd_downloader.java**.
+
 * To Run this file.
-..* Use *java -cp jsoup.jar: xkcd_downloader*.
+
+- Use **java -cp jsoup.jar: xkcd_downloader**.
