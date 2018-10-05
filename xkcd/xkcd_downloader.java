@@ -15,6 +15,8 @@ public class xkcd_downloader
    public static void main( String[] args ) throws IOException
     {
        	Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Location you want to Download File : ");
+        String loc = sc.nextLine();
         System.out.print("Enter the page no you want to start the download from : ");
         int s=sc.nextInt();
         System.out.print("Enter the page number you want to stop : ");
@@ -37,7 +39,7 @@ public class xkcd_downloader
 	        {
 	          URL url=new URL(link);
 	          img=ImageIO.read(url);
-	          ImageIO.write(img,"jpg",new File("/home/mohammad/xkcd/"+i));
+	          ImageIO.write(img,"jpg",new File(loc+i));
 	        }
 	        catch(IOException e)
 	        {
