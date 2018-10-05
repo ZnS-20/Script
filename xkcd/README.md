@@ -1,8 +1,6 @@
 # xkcd Image Downloader
 
-**xkcd_imagedownloader** is a simple java program that downloads *xkcd comic* images into your system.
-
-* In this program i've used **jsoup** to scrape the data.
+**xkcd image downloader** is a simple java program that downloads *xkcd comic* images into your system.
 
 ## How to run
 
